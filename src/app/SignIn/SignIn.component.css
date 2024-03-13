@@ -1,7 +1,4 @@
-:host {
-    display: block;
-    height: 100vh; /* 100% de la altura del viewport */
-  }
+
   
   .mat-grid-list {
     height: 100%; /* 100% de la altura del contenedor padre */
@@ -14,3 +11,7 @@
     justify-content: center; 
     height: 100%; 
   }
+
+  .btnPrimary {
+    background-color: #717349; color: white;
+   }

@@ -11,3 +11,11 @@ html, body { height: 100%; }
 
 body { margin: 0; font-family: gotham, sans-serif; }
 
+
+.btnPrimary {
+  background-color: #717349; color: white;
+ }
+
+ .btnBasic {
+  color: #333333;
+ }
