@@ -1,0 +1,22 @@
+<div class="div-header">
+  <img src="../../assets/logostudytime.svg" style="height: 60px; width: 60px;" alt="Study Time logo"/>
+  <img src="../../assets/STUDYTIME.svg" style="height: 40px; margin-left: 20px; margin-top: 10px;" alt="Study Time text"/>
+  <button mat-button style="margin-left: auto; margin-right: 27px; margin-top: 10px;" (click)="goToSignIn()">CERRAR SESIÓN</button>
+</div>
+<hr style="margin-left: 27px; margin-top: 18px; margin-right: 27px; border-color: #333333; border: 1px solid"/>
+
+<mat-toolbar style="background-color:#F8F9FA">
+  <button mat-button>Inicio</button>
+  <button mat-button>Estadísticas</button>
+  <button mat-button>Usuarios administradores</button>
+</mat-toolbar>
+
+<mat-grid-list cols="12" rowHeight="2:8" style="margin-left: 27px; margin-right: 27px;">
+  <mat-grid-tile [colspan]="3">a
+  </mat-grid-tile>
+  <mat-grid-tile [colspan]="6">b
+  </mat-grid-tile>
+  <mat-grid-tile [colspan]="3">
+    <img src="../../assets/Time-management.svg"  alt="time management"/>
+  </mat-grid-tile>
+</mat-grid-list>

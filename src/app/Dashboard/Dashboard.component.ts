@@ -6,28 +6,26 @@ import {FormControl, Validators, FormsModule, ReactiveFormsModule} from '@angula
 import {MatButtonModule} from '@angular/material/button';
 import { Router } from '@angular/router';
 
+import { MatToolbarModule } from '@angular/material/toolbar';
+
 @Component({
-  selector: 'app-SignIn',
-  templateUrl: './SignIn.component.html',
-  styleUrls: ['./SignIn.component.css'],
+  selector: 'app-Dashboard',
+  templateUrl: './Dashboard.component.html',
+  styleUrls: ['./Dashboard.component.css'],
   standalone:true,
   imports: [
-    FormsModule, MatFormFieldModule, MatInputModule, ReactiveFormsModule,MatGridListModule,MatButtonModule
+    FormsModule, MatFormFieldModule, MatInputModule, ReactiveFormsModule,MatGridListModule,MatButtonModule,MatToolbarModule,MatButtonModule
    ]
 })
-export class SignInComponent implements OnInit {
-
+export class DashboardComponent implements OnInit {
+  
   constructor(private router: Router) { }
 
   ngOnInit() {
   }
 
-  goToRecovery(){
-    this.router.navigate(['/recovery-pass']);
-  }
-
-  goToDashboard(){
-    this.router.navigate(['/dashboard']);
+  goToSignIn(){
+    this.router.navigate(['/sign-in']);
   }
 
 }
