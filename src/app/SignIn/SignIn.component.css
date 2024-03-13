@@ -14,9 +14,3 @@
     justify-content: center; 
     height: 100%; 
   }
-
-
-  buttonStudyTime {
-    background-color: #717349;
-    color: #fff; /* Cambia el color del texto si es necesario */
-  }
