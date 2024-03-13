@@ -18,6 +18,13 @@ body {
     background-color: #717349;
   }
 
+  .mat-dialog-actions {
+    justify-content: flex-end; 
+  }
+
+  
+
+
 }
 
 
@@ -30,4 +37,16 @@ body {
  }
 
 
+.div-header {
+  display: flex;
+  margin-left: 27px; 
+  margin-top: 20px; 
+}
+
+
+.btn-cancel {
+  border: 1px solid #BF565F; 
+  color: #BF565F; 
+  background-color: white; 
+}
 
