@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+
+@font-face {
+    font-family: 'gotham';
+    src: url('assets/fonts/gothamrnd_bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+body { margin: 0; font-family: gotham, sans-serif; }
+
+
+.btnPrimary {
+  background-color: #717349; color: white;
+ }
+
+ .btnBasic {
+  color: #333333;
+ }
