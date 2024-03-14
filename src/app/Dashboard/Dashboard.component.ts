@@ -183,4 +183,8 @@ export class DashboardComponent implements OnInit {
 	iconResolver(category: Category) {
 		return icons[category];
 	}
+
+	goToAdminUsers() {
+		this.router.navigate(['/admin-users']);
+	}
 }
