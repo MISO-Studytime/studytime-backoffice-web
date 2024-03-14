@@ -72,6 +72,12 @@ export class AdminUsersComponent implements OnInit {
 		this.router.navigate(['/dashboard']);
 	}
 
+  goToStats() {
+		this.router.navigate(['/stats']);
+	}
+
+	
+
 	openDialog() {
 		this.dialog.open(DialogConfirm,{
 			width: '280px'
