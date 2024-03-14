@@ -57,3 +57,10 @@ th {
 	overflow-y: scroll;
 	max-height: 30rem;
 }
+
+header {
+	display: flex;
+	padding-left: 1rem;
+	padding-top: 0.5rem;
+	gap: 10rem;
+}
