@@ -184,4 +184,7 @@ export class DashboardComponent implements OnInit {
 	goToStats() {
 		this.router.navigate(['/stats']);
 	}
+	goToAdminUsers() {
+		this.router.navigate(['/admin-users']);
+	}
 }
