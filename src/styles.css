@@ -1,5 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-
+@import url("global.css");
 html, body { height: 100%; }
 
 @font-face {
@@ -9,20 +9,20 @@ html, body { height: 100%; }
     font-style: normal;
   }
 
-body { 
-  margin: 0; font-family: gotham, sans-serif; 
+body {
+  margin: 0; font-family: gotham, sans-serif;
 
-  
+
   .mat-mdc-raised-button.mat-primarybutton-color {
-    color: white;   
+    color: white;
     background-color: #717349;
   }
 
   .mat-dialog-actions {
-    justify-content: flex-end; 
+    justify-content: flex-end;
   }
 
-  
+
 
 
 }
@@ -39,14 +39,14 @@ body {
 
 .div-header {
   display: flex;
-  margin-left: 27px; 
-  margin-top: 20px; 
+  margin-left: 27px;
+  margin-top: 20px;
 }
 
 
 .btn-cancel {
-  border: 1px solid #BF565F; 
-  color: #BF565F; 
-  background-color: white; 
+  border: 1px solid #BF565F;
+  color: #BF565F;
+  background-color: white;
 }
 

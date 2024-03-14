@@ -1,0 +1,22 @@
+:root {
+	--gray: #CCCCCC;
+	--dark-gray: #999999;
+	--charcoal: #666666;
+	--charcoal-black: #333333;
+	--pale-olive-green-85: #D6D98B;
+	--pale-olive-green-65: #A4A66A;
+	--pale-olive-green-45: #717349;
+	--pale-olive-green-25: #3F4029;
+	--coral-pink-95: #F26D78;
+	--coral-pink-75: #BF565F;
+	--coral-pink-55: #8C3F46;
+	--coral-pink-35: #59282C;
+	--pale-cyan-85: #A9D9D9;
+	--pale-cyan-65: #81A6A6;
+	--pale-cyan-45: #5A7373;
+	--pale-cyan-25: #324040;
+	--light-gray-95: #F2F2F2;
+	--light-gray-75: #BFBFBF;
+	--light-gray-55: #8C8C8C;
+	--light-gray-35: #595959;
+  }
