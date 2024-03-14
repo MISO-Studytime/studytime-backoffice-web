@@ -1,19 +1,19 @@
 <div class="div-header">
-  <img src="../../assets/logostudytime.svg" style="height: 60px; width: 60px;" alt="Study Time logo"/>
-  <img src="../../assets/STUDYTIME.svg" style="height: 40px; margin-left: 20px; margin-top: 10px;" alt="Study Time text"/>
+  <img src="assets/logostudytime.svg" style="height: 60px; width: 60px;" alt="Study Time logo"/>
+  <img src="assets/STUDYTIME.svg" style="height: 40px; margin-left: 20px; margin-top: 10px;" alt="Study Time text"/>
   <button mat-button style="margin-left: auto; margin-right: 27px; margin-top: 10px;" (click)="goToSignIn()">CERRAR SESIÓN</button>
 </div>
 <hr style="margin-left: 27px; margin-top: 18px; margin-right: 27px; border-color: #333333; border: 1px solid"/>
 
 <mat-toolbar style="background-color:#F8F9FA" >
   <button mat-button>Inicio</button>
-  <button mat-button>Estadísticas</button>
+  <button mat-button (click)="goToStats()">Estadísticas</button>
   <button mat-button>Usuarios administradores</button>
 </mat-toolbar>
 
 <mat-grid-list cols="12" rowHeight="2:3" class="gridList" align-items="flex-start">
   <mat-grid-tile [colspan]="2">
-      <img src="../../assets/grapone.svg" style="width: 200px;"  alt="graph"/>
+      <img src="assets/grapone.svg" style="width: 200px;"  alt="graph"/>
   </mat-grid-tile>
   <mat-grid-tile [colspan]="6" [rowspan]="3" >
 
@@ -81,13 +81,13 @@
 	  </mat-card>
   </mat-grid-tile>
   <mat-grid-tile [colspan]="4" [rowspan]="3" *ngIf="!showDetails">
-    <img src="../../assets/Time-management.svg"  alt="time management"/>
+    <img src="assets/Time-management.svg"  alt="time management"/>
   </mat-grid-tile>
 
   <mat-grid-tile [colspan]="2">
-    <img src="../../assets/graphtwo.svg" style="width: 200px;"  alt="graph"/>
+    <img src="assets/graphtwo.svg" style="width: 200px;"  alt="graph"/>
   </mat-grid-tile>
   <mat-grid-tile [colspan]="2">
-    <img src="../../assets/grapthree.svg" style="width: 200px;"  alt="graph"/>
+    <img src="assets/grapthree.svg" style="width: 200px;"  alt="graph"/>
   </mat-grid-tile>
 </mat-grid-list>

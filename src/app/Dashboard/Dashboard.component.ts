@@ -1,7 +1,4 @@
-import {
-	Component,
-	OnInit
-} from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatInputModule } from '@angular/material/input';
@@ -10,7 +7,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { MatListModule } from '@angular/material/list';
-import {MatIconModule} from '@angular/material/icon'
+import { MatIconModule } from '@angular/material/icon';
 import { Router } from '@angular/router';
 
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -26,8 +23,8 @@ enum Category {
 }
 
 const icons = {
-	"STUDY": "school",
-	"READ": "auto_stories"
+	STUDY: 'school',
+	READ: 'auto_stories',
 };
 
 export interface UserElement {
@@ -145,7 +142,7 @@ const ELEMENT_DATA: UserElement[] = [
 		MatCardModule,
 		CommonModule,
 		MatListModule,
-		MatIconModule
+		MatIconModule,
 	],
 })
 export class DashboardComponent implements OnInit {
@@ -182,5 +179,9 @@ export class DashboardComponent implements OnInit {
 
 	iconResolver(category: Category) {
 		return icons[category];
+	}
+
+	goToStats() {
+		this.router.navigate(['/stats']);
 	}
 }
