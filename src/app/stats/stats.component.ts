@@ -64,4 +64,7 @@ export class StatsComponent {
 	goToDashboard() {
 		this.router.navigate(['/dashboard']);
 	}
+	goToUsers() {
+		this.router.navigate(['/admin-users']);
+	}
 }
