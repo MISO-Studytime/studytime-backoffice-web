@@ -1,0 +1,45 @@
+<div class="div-header">
+  <img src="../../assets/logostudytime.svg" style="height: 60px; width: 60px;" alt="Study Time logo"/>
+  <img src="../../assets/STUDYTIME.svg" style="height: 40px; margin-left: 20px; margin-top: 10px;" alt="Study Time text"/>
+  <button mat-button style="margin-left: auto; margin-right: 27px; margin-top: 10px;" (click)="goToSignIn()">CERRAR SESIÓN</button>
+</div>
+<hr style="margin-left: 27px; margin-top: 18px; margin-right: 27px; border-color: #333333; border: 1px solid"/>
+<mat-toolbar style="background-color:#F8F9FA" >
+  <button mat-button (click)="goToDashboard()">Inicio</button>
+  <button mat-button (click)="goToStats()">Estadísticas</button>
+  <button mat-button>Usuarios administradores</button>
+</mat-toolbar>
+<p style="margin-left: 27px;">Registro de usuarios administradores</p>
+<br/>
+<div style="width: 100%;display: flex; justify-content: center; flex-direction: column; align-items: center;" >
+  <mat-form-field appearance="outline" style="width: 80%;  justify-content: center; ">
+    <mat-label>Nombre</mat-label>
+    <input matInput placeholder="Nombre">
+  </mat-form-field>
+
+  <mat-form-field appearance="outline" style="width: 80%;  justify-content: center; ">
+    <mat-label>Apellido</mat-label>
+    <input matInput placeholder="Apellido">
+  </mat-form-field>
+
+  <mat-form-field appearance="outline" style="width: 80%;  justify-content: center; ">
+    <mat-label>Correo</mat-label>
+    <input matInput placeholder="Correo">
+  </mat-form-field>
+
+
+  <mat-form-field appearance="outline" style="width: 80%;  justify-content: center; ">
+    <mat-label>Rol</mat-label>
+    <mat-select>
+      <mat-option value="Rol1">Administrador</mat-option>
+      <mat-option value="Rol2">Soporte</mat-option>
+    </mat-select>
+  </mat-form-field>
+</div>
+
+<div style="display: flex; justify-content: flex-end; width: 90%;">
+  <button mat-stroked-button style="border: 1px solid #BF565F;   color: #BF565F; background-color: white; width: 200px; margin-right: 27px;" (click)="goToDashboard()" >CANCELAR</button>
+   <button mat-raised-button color="primarybutton-color" style="width: 200px;" (click)="openDialog()">Guardar</button>
+  
+</div>
+

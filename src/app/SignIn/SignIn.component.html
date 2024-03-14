@@ -1,0 +1,29 @@
+<mat-grid-list cols="12" rowHeight="100%">
+  <mat-grid-tile [colspan]="7">
+    <img src="assets/Worktime.svg" alt="Study Time"/>
+  </mat-grid-tile>
+  <mat-grid-tile [colspan]="5">
+    <div class="center-container" style="flex-grow: 1;">
+      <img src="assets/logostudytime.svg" alt="Study Time logo"/>
+      <br/>
+      <p style="color: #333333;">Iniciar sesión</p>
+      <br/>
+      <mat-form-field appearance="outline" style="width: 90%;">
+        <mat-label>Email</mat-label>
+        <input matInput placeholder="Ingresa tu email">
+        <mat-hint align="start">Ingresa tu email</mat-hint>
+      </mat-form-field>
+      <br/>
+
+      <mat-form-field appearance="outline" style="width: 90%;">
+        <mat-label>Contraseña</mat-label>
+        <input matInput placeholder="Ingresa tu contraseña" type="password">
+        <mat-hint align="start">Ingresa tu contraseña</mat-hint>
+      </mat-form-field>
+      <br/>
+      <button mat-raised-button color="primarybutton-color"  (click)="goToDashboard()">INGRESAR</button>
+      <br/>
+      <button mat-button  class="btnBasic" (click)="goToRecovery()">RECUPERAR CUENTA</button>
+    </div>
+  </mat-grid-tile>
+</mat-grid-list>
